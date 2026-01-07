@@ -1,0 +1,13 @@
+actor_id: "NT_KEMET_001"
+alias: "Sovereign_Protagonist"
+compliance: 1.0_DAYEM_CONSTANT
+
+biological_logic:
+  facial_geometry_hash: "sha256:8f3e2d..." # Fixed bone structure
+  melanin_index: 0.82                      # Fixed skin tone response
+  subsurface_scattering_lock: 0.992        # Linked to Basalt Covenant
+
+emotional_vectors:
+  baseline_state: "stoic_authority"
+  variance_limit: 0.05                     # Prevents "emotional flickering"
+  micro_expression_standard: "Dayem_Principia_v1"
